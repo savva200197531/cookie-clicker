@@ -1,0 +1,32 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.cookie-img {
+  padding: 10px;
+}
+
+.shrink {
+  transition: transform 0.2s;
+  transform: scale(0.95);
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.upgrades {
+  margin-top: 10px;
+}
+
+/*.cookie-img {*/
+/*  transform: scale(0.95);*/
+/*}*/

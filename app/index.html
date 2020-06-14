@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Document</title>
+</head>
+<body>
+<div class="container">
+  <button class="refresh">New Game</button>
+  <div class="cookie">
+    <img src="assets/img/cookie.png" alt="" class="cookie-img">
+  </div>
+  <button class="shop">SHOP</button>
+  <button class="shop-close">x</button>
+</div>
+<template id="shop-menu" class="shop-menu">
+  <div class="upgrades">
+    <button class="upgrade1" data-widget-name="up1">Up1</button>
+    <button class="upgrade2" data-widget-name="up2">Up2</button>
+    <button class="upgrade3" data-widget-name="up3">Up3</button>
+    <button class="upgrade4" data-widget-name="up4">Up4</button>
+    <button class="upgrade5" data-widget-name="up5">Up5</button>
+  </div>
+</template>
+<template id="time-shop-menu" class="time-shop-menu">
+  <div class="time-upgrades">
+    <button class="upgrade1" data-widget-name="up6">Up1-time</button>
+    <button class="upgrade2" data-widget-name="up7">Up2-time</button>
+    <button class="upgrade3" data-widget-name="up8">Up3-time</button>
+    <button class="upgrade4" data-widget-name="up9">Up4-time</button>
+    <button class="upgrade5" data-widget-name="up10">Up5-time</button>
+  </div>
+</template>
+<template id="score" class="score">
+  <div class="score-number"></div>
+</template>
+<script src="js/script.js"></script>
+</body>
+</html>
